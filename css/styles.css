@@ -1,7 +1,7 @@
 /* ---------- Theme tokens ---------- */
 :root{
-  --bg:#0a0f1f; --text:#e7ebf3; --muted:#b3c0d4; --brand:#7dd3fc; --brand-2:#8b5cf6;
-  --card:#0f172a; --border:#1f2a3a; --shadow:0 10px 40px rgba(0,0,0,.35);
+  --bg:#ece9e2; --text:#e7ebf3; --muted:#b3c0d4; --brand:#7dd3fc; --brand-2:#8b5cf6;
+  --card:#0f172a; --border:#ece9e2; --shadow:0 10px 40px rgba(0,0,0,.35);
 }
 @media (prefers-color-scheme: light){
   :root{ --bg:#ffffff; --text:#0f172a; --muted:#64748b; --card:#ffffff; --border:#e5e7eb; --shadow:0 8px 30px rgba(2,6,23,.06); }
