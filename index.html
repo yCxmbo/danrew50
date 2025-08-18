@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Designer</title>
+  <meta name="description" content="Designer portfolio — clean one-page with work, experience, and contact." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="css/styles.css" as="style" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta property="og:title" content="Your Name — Designer" />
+  <meta property="og:description" content="Selected work, experience, and contact." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/cover.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Slim sticky header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home" aria-label="Home">Your<span>Name</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌓</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero / Intro -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="intro">
+          <h1>Hello, I’m <span class="accent">Your Name</span>.</h1>
+          <p class="lede">Designer focused on brand systems, digital products, and clear visual communication.</p>
+          <ul class="quick">
+            <li>Based in City · Available for freelance</li>
+            <li>Currently: <strong>Designing at Company</strong></li>
+            <li>Email: <a href="mailto:you@yourdomain.com">you@yourdomain.com</a></li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn" href="#work">View Work</a>
+            <a class="btn btn-secondary" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <div class="intro-media">
+          <img src="images/portrait.svg" alt="Portrait placeholder" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Grid -->
+    <section id="work" class="section">
+      <div class="container">
+        <h2>Selected Work</h2>
+        <div class="grid">
+          <article class="card">
+            <a href="#" class="card-link" data-modal="w1">
+              <img src="images/work-1.svg" alt="Brand identity cover" />
+              <div class="card-body">
+                <h3>Brand Identity</h3>
+                <p class="muted">Brand · Guidelines</p>
+              </div>
+            </a>
+          </article>
+          <article class="card">
+            <a href="#" class="card-link" data-modal="w2">
+              <img src="images/work-2.svg" alt="Product website redesign" />
+              <div class="card-body">
+                <h3>Product Website</h3>
+                <p class="muted">UI/UX · Web</p>
+              </div>
+            </a>
+          </article>
+          <article class="card">
+            <a href="#" class="card-link" data-modal="w3">
+              <img src="images/work-3.svg" alt="Campaign visuals" />
+              <div class="card-body">
+                <h3>Campaign Visuals</h3>
+                <p class="muted">Art Direction · Motion</p>
+              </div>
+            </a>
+          </article>
+          <article class="card">
+            <a href="#" class="card-link" data-modal="w4">
+              <img src="images/work-4.svg" alt="Editorial layout" />
+              <div class="card-body">
+                <h3>Editorial Layout</h3>
+                <p class="muted">Print · Systems</p>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience</h2>
+        <ol class="timeline">
+          <li>
+            <div class="time">2024 — Present</div>
+            <div class="content">
+              <h3>Digital Content Manager · Company</h3>
+              <p>Philadelphia, PA — Led brand and web initiatives; shipped multi-channel campaigns and component libraries.</p>
+            </div>
+          </li>
+          <li>
+            <div class="time">2023 — 2024</div>
+            <div class="content">
+              <h3>Graphic Design Assistant · Org</h3>
+              <p>Built templates for social, email, and print. Partnered with product to deliver landing pages.</p>
+            </div>
+          </li>
+          <li>
+            <div class="time">2022 — 2023</div>
+            <div class="content">
+              <h3>Design Intern · Studio</h3>
+              <p>Explored concepting, typography, and motion across client projects.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container narrow">
+        <h2>About</h2>
+        <p>I’m a designer who enjoys building cohesive brand systems and intuitive interfaces. My work leans minimal, with attention to typography, contrast, and rhythm.</p>
+        <ul class="pill-list" aria-label="Skills">
+          <li>Branding</li><li>UI/UX</li><li>Web</li><li>Motion</li><li>Editorial</li><li>Prototyping</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p>Interested in working together? Reach out and let’s chat.</p>
+        <div class="cta-row">
+          <a class="btn" href="mailto:you@yourdomain.com?subject=Project Inquiry">you@yourdomain.com</a>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="me noopener">LinkedIn</a>
+            <a href="https://dribbble.com/your-handle" target="_blank" rel="me noopener">Dribbble</a>
+            <a href="https://www.behance.net/your-handle" target="_blank" rel="me noopener">Behance</a>
+            <a href="https://www.instagram.com/your-handle" target="_blank" rel="me noopener">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year">2025</span> Your Name</p>
+    </div>
+  </footer>
+
+  <!-- Work Modals -->
+  <div class="modal" id="w1" aria-hidden="true"><div class="modal-backdrop" data-close></div><div class="modal-content"><button class="modal-close" data-close>×</button><img src="images/work-1.svg" alt="Brand identity — full view"><div class="modal-text"><h3>Brand Identity</h3><p>Short case study blurb. Replace with your details.</p></div></div></div>
+  <div class="modal" id="w2" aria-hidden="true"><div class="modal-backdrop" data-close></div><div class="modal-content"><button class="modal-close" data-close>×</button><img src="images/work-2.svg" alt="Product website — full view"><div class="modal-text"><h3>Product Website</h3><p>Short case study blurb. Replace with your details.</p></div></div></div>
+  <div class="modal" id="w3" aria-hidden="true"><div class="modal-backdrop" data-close></div><div class="modal-content"><button class="modal-close" data-close>×</button><img src="images/work-3.svg" alt="Campaign visuals — full view"><div class="modal-text"><h3>Campaign Visuals</h3><p>Short case study blurb. Replace with your details.</p></div></div></div>
+  <div class="modal" id="w4" aria-hidden="true"><div class="modal-backdrop" data-close></div><div class="modal-content"><button class="modal-close" data-close>×</button><img src="images/work-4.svg" alt="Editorial layout — full view"><div class="modal-text"><h3>Editorial Layout</h3><p>Short case study blurb. Replace with your details.</p></div></div></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
