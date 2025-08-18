@@ -1,8 +1,14 @@
 /* ---------- Theme tokens ---------- */
-:root{
-  --bg:#ece9e2; --text:#e7ebf3; --muted:#b3c0d4; --brand:#7dd3fc; --brand-2:#8b5cf6;
-  --card:#0f172a; --border:#ece9e2; --shadow:0 10px 40px rgba(0,0,0,.35);
+:root {
+  --bg: #ece9e2;     /* background */
+  --text: #222222;   /* main text */
+  --muted: #555555;  /* muted/secondary text */
+  --brand: #1d4ed8;  /* accent (blue) */
+  --card: #ffffff;   /* cards/sections */
+  --border: #dddddd; /* borders */
+  --shadow: 0 4px 20px rgba(0,0,0,.08);
 }
+
 @media (prefers-color-scheme: light){
   :root{ --bg:#ffffff; --text:#0f172a; --muted:#64748b; --card:#ffffff; --border:#e5e7eb; --shadow:0 8px 30px rgba(2,6,23,.06); }
 }
