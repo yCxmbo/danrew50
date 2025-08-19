@@ -1,7 +1,0 @@
-name: "Nathan McCracken — Portfolio"
-description: "Clean, minimal portfolio on GitHub Pages"
-baseurl: ""
-url: ""
-markdown: kramdown
-plugins: []
-exclude: ["README.md"]
