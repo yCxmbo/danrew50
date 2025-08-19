@@ -1,0 +1,29 @@
+hero:
+  name: "Nathan McCracken"
+  tagline_lines:
+    - "Hey there,"
+    - "I'm Nathan McCracken."
+  bio: "I’m a 24‑year‑old graphic designer based in Massachusetts. I create visual identities, websites, and digital experiences."
+  avatar: "/assets/images/avatar.jpg"
+
+contact:
+  email: "me@nathanmccracken.com"
+  linkedin: "https://linkedin.com/in/nathan-mccracken"
+  resume_url: "#"
+  form_url: "#"
+
+stats:
+  - label: "Projects Completed"
+    value: "200+"
+  - label: "Positive Reviews"
+    value: "117"
+  - label: "Digital Skills"
+    value: "54"
+  - label: "Years of Experience"
+    value: "9"
+
+software_logos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Adobe_Creative_Cloud_rainbow_icon.svg"
+    alt: "Adobe"
+  - src: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+    alt: "Figma"
